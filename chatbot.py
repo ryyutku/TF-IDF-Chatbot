@@ -12,6 +12,10 @@ class Chatbot:
 
     def set_vector(self):
         """Convert the FAQ questions in the knowledge base into vectors"""
+        if self.faqs.empty:
+            print("The FAQ dataset is empty. Please provide a valid dataset.")
+            return
+
         self.kb_vectors = self.vectorizer.fit_transform(self.faqs['question'])
 
 
