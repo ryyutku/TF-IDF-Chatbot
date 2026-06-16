@@ -17,25 +17,15 @@ This chatbot is designed for businesses and organizations that need a simple, co
 ## 🚀 Quick Start
 
 ### Prerequisites
-```bash
 Python 3.7 or higher
 pip install scikit-learn pandas
 
-Clone the repository:
-
-```bash
+### Clone the repository:
 git clone https://github.com/yourusername/faq-chatbot.git
 cd faq-chatbot
 
-### Install dependencies:
-
-```bash
-pip install pandas scikit-learn numpy
-
-
 ### Prepare your FAQ data:
 Create a faqs.csv file in the project root with the following format:
-```csv
 question,answer
 "What services do you provide?","We provide web development, mobile app development, and cloud consulting services."
 "How can I contact support?","You can email support@company.com or call 1-800-555-0199."
@@ -47,6 +37,7 @@ Column names are case-sensitive: use exactly question and answer
 Each row should contain one FAQ pair
 Questions and answers should be enclosed in double quotes if they contain commas
 
-Run the chatbot:
+### Install dependencies & Run chatbot:
 ```bash
+pip install pandas scikit-learn numpy
 python chatbot.py
