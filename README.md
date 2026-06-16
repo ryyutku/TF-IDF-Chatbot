@@ -20,10 +20,6 @@ This chatbot is designed for businesses and organizations that need a simple, co
 Python 3.7 or higher
 pip install scikit-learn pandas
 
-### Clone the repository:
-git clone https://github.com/yourusername/faq-chatbot.git
-cd faq-chatbot
-
 ### Prepare your FAQ data:
 Create a faqs.csv file in the project root with the following format:
 question,answer
