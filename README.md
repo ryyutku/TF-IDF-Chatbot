@@ -19,4 +19,4 @@ This chatbot is designed for businesses and organizations that need a simple, co
 ### Prerequisites
 ```bash
 Python 3.7 or higher
-pip (Python package manager)
+pip install scikit-learn pandas
