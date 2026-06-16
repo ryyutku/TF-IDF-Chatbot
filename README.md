@@ -1,9 +1,4 @@
 # 🤖 FAQ Chatbot with TF-IDF and Cosine Similarity
-
-[![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)](https://python.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-
 A lightweight, rule-based FAQ chatbot that uses TF-IDF vectorization and cosine similarity to provide instant answers to frequently asked questions without the need for large language models.
 
 ## 🎯 Purpose
