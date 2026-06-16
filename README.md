@@ -22,10 +22,11 @@ pip install scikit-learn pandas
 
 ### Prepare your FAQ data:
 Create a faqs.csv file in the project root with the following format:
-question,answer
-"What services do you provide?","We provide web development, mobile app development, and cloud consulting services."
-"How can I contact support?","You can email support@company.com or call 1-800-555-0199."
-"What are your business hours?","We are open Monday to Friday, 9 AM to 5 PM EST."
+ Question | Answer |
+|----------|--------|
+| "What services do you provide?" | "We provide web development, mobile app development, and cloud consulting services." |
+| "How can I contact support?" | "You can email support@company.com or call 1-800-555-0199." |
+| "What are your business hours?" | "We are open Monday to Friday, 9 AM to 5 PM EST." |
 
 ### Important CSV Requirements:
 The CSV file must have two columns: question and answer
